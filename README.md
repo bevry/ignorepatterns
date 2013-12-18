@@ -28,13 +28,9 @@ A regular expression that matches common filenames that we want to ignore
 
 ## Install
 
-### [Node](http://nodejs.org/), [Browserify](http://browserify.org/)
+### [Node](http://nodejs.org/)
 - Use: `require('ignorepatterns')`
 - Install: `npm install --save ignorepatterns`
-
-### [Ender](http://ender.jit.su/)
-- Use: `require('ignorepatterns')`
-- Install: `ender add ignorepatterns`
 
 <!-- /INSTALL -->
 
@@ -50,7 +46,7 @@ console.log(ignored); // true
 <!-- HISTORY/ -->
 
 ## History
-[Discover the change history by heading on over to the `History.md` file.](https://github.com/bevry/ignorepatterns/blob/master/History.md#files)
+[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/bevry/ignorepatterns/blob/master/HISTORY.md#files)
 
 <!-- /HISTORY -->
 
@@ -59,7 +55,7 @@ console.log(ignored); // true
 
 ## Contribute
 
-[Discover how you can contribute by heading on over to the `Contributing.md` file.](https://github.com/bevry/ignorepatterns/blob/master/Contributing.md#files)
+[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/bevry/ignorepatterns/blob/master/CONTRIBUTING.md#files)
 
 <!-- /CONTRIBUTE -->
 
@@ -84,8 +80,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `Contributing.md` file.](https://github.com/bevry/ignorepatterns/blob/master/Contributing.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/bevry/ignorepatterns/commits?author=balupton)
+
+[Become a contributor!](https://github.com/bevry/ignorepatterns/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 

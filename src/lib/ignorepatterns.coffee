@@ -8,6 +8,7 @@ module.exports = ///
 
 		# Paths that end with something
 		.*(
+			~|          # vim, gedit, etc
 			\.swp       # vi
 		)|
 

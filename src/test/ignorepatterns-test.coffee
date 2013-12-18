@@ -13,7 +13,7 @@ joe.describe 'ignorepatterns', (describe,it) ->
 		# Vim
 		"~": true
 		"~something": true
-		"something~": false
+		"something~": true
 		"something~something": false
 
 		# Emacs
