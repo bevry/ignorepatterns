@@ -62,8 +62,8 @@ A regular expression that matches common filenames that we want to ignore
 ## Usage
 
 ``` javascript
-var ignored = require('ignorepatterns').test('.DS_Store');
-console.log(ignored); // true
+var ignored = require('ignorepatterns').test('.DS_Store')
+console.log(ignored) // true
 ```
 
 
