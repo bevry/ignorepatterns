@@ -91,7 +91,7 @@
     "release:push": "git push origin master && git push origin --tags",
     "pretest": "npm run test:coffeelint",
     "test:coffeelint": "coffeelint ./source",
-    "test": "node --harmony ./es5/index.js"
+    "test": "node --harmony ./es5/test.js"
   },
   "dependencies": {},
   "devDependencies": {
