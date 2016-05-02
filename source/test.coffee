@@ -1,7 +1,7 @@
 # Import
-{expect, assert} = require('chai')
+{equal} = require('assert-helpers')
 joe = require('joe')
-ignorepatterns = require('../../')
+ignorepatterns = require('../')
 
 
 # =====================================
@@ -75,4 +75,4 @@ joe.describe 'ignorepatterns', (describe,it) ->
 		testName = "#{if resultExpected then "should" else "should not"} ignore [#{str}]"
 		it testName, ->
 			resultActual = ignorepatterns.test(str)
-			assert.equal(resultActual, resultExpected)
+			equal(resultActual, resultExpected)
