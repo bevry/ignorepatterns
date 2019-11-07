@@ -97,7 +97,7 @@
   "devDependencies": {
     "assert-helpers": "^4.2.0",
     "coffee-script": "^1.10.0",
-    "coffeelint": "^1.15.7",
+    "coffeelint": "^2.1.0",
     "joe": "^1.6.0",
     "joe-reporter-console": "^1.2.1",
     "projectz": "^1.1.4"
