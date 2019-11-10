@@ -1,13 +1,13 @@
 # Import
 {equal} = require('assert-helpers')
-joe = require('joe')
+kava = require('kava')
 ignorepatterns = require('../')
 
 
 # =====================================
 # Tests
 
-joe.describe 'ignorepatterns', (describe,it) ->
+kava.describe 'ignorepatterns', (describe,it) ->
 
 	ignoreExpected = {
 		# Vim
