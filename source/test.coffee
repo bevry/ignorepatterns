@@ -1,7 +1,7 @@
 # Import
 {equal} = require('assert-helpers')
 kava = require('kava')
-ignorepatterns = require('../')
+ignorepatterns = require('./')
 
 
 # =====================================
