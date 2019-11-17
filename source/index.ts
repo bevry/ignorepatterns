@@ -1,9 +1,10 @@
-module.exports = ///
+export default /^((~|\.#).*|.*(~|\.swp)|\.(svn|git|hg|DS_Store)|node_modules|CVS|thumbs\.db|desktop\.ini)$/i
+/*
 	^(
 		# Paths that start with something
 		(
 			~|          # vim, gedit, etc
-			\.\#        # emacs
+			\.#        # emacs
 		).*|
 
 		# Paths that end with something
@@ -26,4 +27,4 @@ module.exports = ///
 		thumbs\.db|
 		desktop\.ini
 	)$
-	///i
+*/
