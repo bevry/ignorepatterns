@@ -71,7 +71,7 @@ kava.suite('ignorepatterns', function(suite, test) {
 	Object.keys(ignoreExpected).forEach(function(str) {
 		const resultExpected = ignoreExpected[str]
 		const testName =
-			(resultExpected ? 'should' : 'should not') + `match [${str}]`
+			(resultExpected ? 'should' : 'should not') + ` match [${str}]`
 		test(testName, function() {
 			const resultActual = ignorepatterns.test(str)
 			equal(resultActual, resultExpected)
