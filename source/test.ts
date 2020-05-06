@@ -6,7 +6,7 @@ import kava from 'kava'
 import ignorepatterns from './'
 
 // Tests
-kava.suite('ignorepatterns', function(suite, test) {
+kava.suite('ignorepatterns', function (suite, test) {
 	const ignoreExpected: { [key: string]: boolean } = {
 		// Vim
 		'~': true,
@@ -65,14 +65,14 @@ kava.suite('ignorepatterns', function(suite, test) {
 
 		// Desktop
 		'desktop.ini': true,
-		desktopaini: false
+		desktopaini: false,
 	}
 
-	Object.keys(ignoreExpected).forEach(function(str) {
+	Object.keys(ignoreExpected).forEach(function (str) {
 		const resultExpected = ignoreExpected[str]
 		const testName =
 			(resultExpected ? 'should' : 'should not') + ` match [${str}]`
-		test(testName, function() {
+		test(testName, function () {
 			const resultActual = ignorepatterns.test(str)
 			equal(resultActual, resultExpected)
 		})

@@ -35,14 +35,12 @@ A regular expression that matches common filenames that we want to ignore
 
 ## Usage
 
-``` javascript
+[Complete API Documentation.](http://master.ignorepatterns.bevry.surge.sh/docs/globals.html)
+
+```javascript
 import ignorePatternsRegExp from 'ignorepatterns'
 console.log(ignorePatternsRegExp.test('.DS_Store')) // true
 ```
-
-
-
-
 
 <!-- INSTALL/ -->
 
