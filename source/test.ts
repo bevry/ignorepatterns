@@ -3,7 +3,7 @@
 // Import
 import { equal } from 'assert-helpers'
 import kava from 'kava'
-import ignorepatterns from './'
+import ignorepatterns from './index.js'
 
 // Tests
 kava.suite('ignorepatterns', function (suite, test) {
