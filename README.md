@@ -35,7 +35,7 @@ A regular expression that matches common filenames that we want to ignore
 
 ## Usage
 
-[Complete API Documentation.](http://master.ignorepatterns.bevry.surge.sh/docs/globals.html)
+[Complete API Documentation.](http://master.ignorepatterns.bevry.surge.sh/docs/)
 
 ```javascript
 import ignorePatternsRegExp from 'ignorepatterns'
@@ -56,7 +56,7 @@ console.log(ignorePatternsRegExp.test('.DS_Store')) // true
 <a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
 
 ``` typescript
-import pkg from 'https://unpkg.com/ignorepatterns@^4.16.0/edition-deno/index.ts'
+import pkg from 'https://unpkg.com/ignorepatterns@^4.17.0/edition-deno/index.ts'
 ```
 
 <h3><a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
